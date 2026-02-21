@@ -1,0 +1,1 @@
+@layer starwind.layout{:where(sw-clustered){gap:var(--sw-clustered-gap,var(--sw-gap-ui,var(--sw-gap,var(--sw-space-s-m,1rem))));align-items:var(--sw-clustered-align,center);justify-content:var(--sw-clustered-justify,flex-start);flex-wrap:wrap;display:flex}:where(sw-clustered[layout]){--sw-clustered-gap:var(--sw-gap,var(--sw-space-s-m,1rem))}}
